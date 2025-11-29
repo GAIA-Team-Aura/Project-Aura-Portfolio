@@ -9,7 +9,16 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Latest-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-Platform-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 
+
 **A modern, full-stack dating application featuring AI-powered personality analysis, real-time messaging, and intelligent matching algorithms.**
+
+---
+
+> **📌 Note:** This is a **portfolio showcase repository**. The actual source code is maintained in a private repository for security and privacy reasons.
+>
+> 🔒 **Source Code Access:** Available upon request for employers and code review purposes.
+>
+> 📧 **Contact:** For source code access or collaboration inquiries, please reach out via [email](mailto:cheefeng21@gmail.com) or [LinkedIn](https://www.linkedin.com/in/lew-chee-feng-a4398a233/).
 
 ---
 
@@ -19,7 +28,26 @@
 
 **Project Aura** is a next-generation dating platform that combines cutting-edge AI technology with intuitive user experience to help people find meaningful connections. Built with modern web technologies and deployed on Google Cloud Platform, Aura provides a seamless, secure, and engaging environment for users to discover, connect, and interact.
 
-Our platform leverages advanced AI models from **Anthropic Claude** and **Google Gemini** to provide personalized experiences, from personality analysis during onboarding to relationship advice and intelligent chatbot assistance.
+Our platform leverages advanced AI models from **Google Gemini** to provide personalized experiences, from deep personality analysis during onboarding to AI-powered messaging features, compatibility scoring, and intelligent matching assistance.
+
+---
+
+## 🏆 Achievement
+
+<div align="center">
+
+### **2nd Runner Up - Gamuda AI Academy Cohort 4**
+**Demo Day Capstone Project Competition**
+
+Project Aura was recognized among the top projects in Gamuda AI Academy's Cohort 4, showcasing excellence in:
+- ✨ **AI Innovation** - Advanced personality analysis using Google Gemini and RAG technology
+- 💻 **Technical Implementation** - Full-stack architecture with real-time features
+- 🎨 **User Experience** - Intuitive design and seamless interactions
+- 🚀 **Product Vision** - Comprehensive dating platform with unique AI-driven features
+
+*Competing against talented teams from Gamuda AI Academy's intensive training program*
+
+</div>
 
 ---
 
@@ -28,17 +56,39 @@ Our platform leverages advanced AI models from **Anthropic Claude** and **Google
 ### 🤖 AI-Powered Personality Analysis
 Understand yourself better with our sophisticated AI chatbot that analyzes your personality during the signup process.
 
-- **Interactive conversational assessment** using Anthropic Claude Agent SDK
-- **Real-time personality insights** based on natural language processing
+- **Interactive conversational assessment** using Google Gemini AI
+- **Deep personality insights** based on relationship psychology
+- **Multi-agent AI system** for comprehensive analysis
 - **Spider chart visualization** of personality traits
 - **Personalized recommendations** based on analysis results
+- **RAG-enhanced analysis** using relationship psychology knowledge base
 
 <details>
 <summary>🎬 <b>View Personality Analysis Demo</b></summary>
 
-> *"Our AI chatbot conducts a natural conversation to understand your unique personality, preferences, and relationship goals - providing insights that help create more meaningful matches."*
+> *"Our AI relationship psychologist conducts a natural conversation to understand your emotional patterns, attachment style, and relationship tendencies - providing profound insights that help you understand yourself and find compatible matches."*
 
-**Key Technologies:** Anthropic Claude SDK, React 19, Streaming responses
+**Key Technologies:** Google Gemini 2.5, Multi-Agent AI System, RAG with relationship psychology books, React 19
+
+</details>
+
+---
+
+### 🎯 Additional AI Features
+Enhance your dating experience with more sophisticated AI capabilities.
+
+- **AI-enhanced messaging** with smart response generation
+- **Compatibility scoring** using advanced AI algorithms
+- **Intelligent match suggestions** based on personality and preferences
+- **Profile optimization** with AI-driven insights
+- **Conversation starters** powered by natural language processing
+
+<details>
+<summary>🎬 <b>View Additional AI Features</b></summary>
+
+> *"Our AI system continuously analyzes user interactions, preferences, and behaviors to provide intelligent suggestions and enhance communication between matches."*
+
+**Key Technologies:** Google Gemini 2.5, LangChain, Custom ML algorithms
 
 </details>
 
@@ -154,7 +204,6 @@ Enjoy a native-app experience on any device.
 ### 🎨 Beautiful UI/UX
 Experience modern design with smooth animations and intuitive navigation.
 
-- **Dark/Light mode** with smooth transitions
 - **Framer Motion animations** for delightful interactions
 - **GSAP timeline animations** for complex sequences
 - **Lottie animations** for engaging visuals
@@ -212,12 +261,12 @@ Your safety is our top priority.
 - **Python-Jose** - JWT token handling (ready for implementation)
 
 ### 🤖 AI & Machine Learning
-- **Anthropic Claude Agent SDK 0.1.29** - Advanced AI chatbot
-- **Google Generative AI (Gemini)** - Multi-modal AI capabilities
+- **Google Generative AI (Gemini 2.5)** - Multi-modal AI capabilities for chat and analysis
 - **LangChain 0.3** - AI orchestration framework
 - **FAISS** - Vector similarity search (Facebook AI)
 - **Sentence Transformers 3.3** - Semantic embeddings
 - **ChromaDB 0.4** - Vector database for RAG
+- **LangChain Google GenAI 2.0** - Google AI integration for LangChain
 
 ### 💾 Storage & Database
 - **PostgreSQL** - Relational database with advanced features
@@ -297,90 +346,6 @@ backend/
 │   └── main.py             # FastAPI app initialization
 └── migrations/             # Alembic migrations
 ```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- **Node.js 18+** and npm
-- **Python 3.11+**
-- **PostgreSQL** (local or Google Cloud SQL access)
-- **Google Cloud Account** (for storage and deployment)
-
-### Backend Setup
-
-1. **Navigate to backend directory:**
-   ```bash
-   cd Project-Aura-Development/backend
-   ```
-
-2. **Create virtual environment:**
-   ```bash
-   python -m venv .venv
-   ```
-
-3. **Activate virtual environment:**
-   - Windows: `.venv\Scripts\activate`
-   - macOS/Linux: `source .venv/bin/activate`
-
-4. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. **Configure environment variables:**
-   - Copy `.env.example` to `.env`
-   - Fill in database credentials and API keys
-
-6. **Start the server:**
-   ```bash
-   uvicorn app.main:app --reload --port 8000
-   ```
-
-### Frontend Setup
-
-1. **Navigate to frontend directory:**
-   ```bash
-   cd Project-Aura-Development/frontend
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Configure environment variables:**
-   - Create `frontend/.env`
-   - Set `VITE_API_BASE_URL=http://localhost:8000`
-
-4. **Start development server:**
-   ```bash
-   npm run dev
-   ```
-
-5. **Open in browser:**
-   - Navigate to `http://localhost:5173/`
-
----
-
-## 📊 Database Schema Highlights
-
-### Core Models
-- **User** - Authentication and basic info
-- **Profile** - Extended user profile with interests
-- **Message** - Chat messages with attachments
-- **ChatSession** - Message grouping
-- **LikeDislike** - Swipe actions
-- **Match** - Mutual likes
-- **ProfileAnalysis** - Personality insights
-- **AIChatMemory** - Conversation history
-
-### Relationships
-- One-to-One: User ↔ Profile, User ↔ ProfileAnalysis
-- One-to-Many: User → Messages, User → Likes
-- Many-to-Many: User ↔ Interests, User ↔ Languages
-
 ---
 
 ## 📈 Performance Optimizations
@@ -407,102 +372,48 @@ backend/
 
 ---
 
-## 🧪 Testing
-
-### Backend Testing
-```bash
-# Run all tests
-pytest
-
-# Test specific module
-pytest backend/scripts/test_api.py
-
-# Test with coverage
-pytest --cov=app
-```
-
-### Frontend Testing
-```bash
-# Run linter
-npm run lint
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
----
-
-## 🚢 Deployment
-
-### Backend (Google Cloud Platform)
-1. Set up Cloud SQL instance
-2. Configure Cloud Storage bucket
-3. Deploy via GitLab CI/CD or manual deployment
-4. Configure environment variables in Cloud Run/Compute Engine
-
-### Frontend (Firebase Hosting)
-```bash
-# Build for production
-npm run build
-
-# Deploy to Firebase
-firebase deploy
-```
-
-### CI/CD Pipeline
-- Automated testing on every commit
-- Secret detection enabled
-- Deployment to staging/production environments
-- GitLab Auto DevOps integration
-
----
-
 ## 🤝 Contributing
 
-We welcome contributions! Here's how to get started:
+> **Note:** This is a portfolio showcase repository. Contributions are limited to documentation improvements.
 
-1. **Fork the repository**
-2. **Create a feature branch:**
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-3. **Make your changes and commit:**
-   ```bash
-   git commit -m "Add amazing feature"
-   ```
-4. **Push to your branch:**
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-5. **Open a Pull Request**
+### How You Can Help
 
-### Development Guidelines
-- Follow existing code style
-- Add comments for complex logic
-- Write tests for new features
-- Update documentation as needed
-- Get code review before merging to main
+**Documentation Contributions:**
+- Report typos or unclear explanations
+- Suggest improvements to documentation
+- Share feedback on the project presentation
 
 ---
 
 ## 📝 API Documentation
 
-Once the backend is running, visit:
-- **Swagger UI:** `http://localhost:8000/docs`
-- **ReDoc:** `http://localhost:8000/redoc`
+> **Note:** API documentation is available in the private repository with interactive Swagger UI.
 
-### Key Endpoints
+### Key API Endpoints Overview
+
+**User Management:**
 - `POST /users/register` - User registration
 - `POST /users/login` - User authentication
 - `GET /users/{id}` - Get user profile
+
+**Profile Operations:**
 - `POST /profiles/` - Create profile
+- `PUT /profiles/{user_id}` - Update profile
+- `GET /profiles/pictures/{user_id}` - Get profile pictures
+
+**Messaging:**
 - `POST /messages/` - Send message
+- `GET /messages/session/{session_id}` - Get messages
+
+**Matching System:**
 - `POST /likes/` - Like/dislike user
 - `GET /matches/` - Get matches
+
+**AI Features:**
 - `POST /ai/chat` - AI chatbot interaction
+- `POST /advice/` - Get relationship advice
+
+**Full API documentation with request/response schemas available in the private repository.**
 
 ---
 
@@ -524,10 +435,17 @@ Once the backend is running, visit:
 ## 👥 Team
 
 **Project Aura Development Team**
-- Backend Architecture: Christian Lew
-- Full-Stack Development: Team Contributors
-- AI Integration: AI/ML Team
-- UI/UX Design: Design Team
+
+Meet the talented individuals who brought Project Aura to life:
+
+| Name | GitHub |
+|------|--------|
+| Thiriidev Kumar Murlidaran | [@Thiriidev](https://github.com/Thiriidev) |
+| Ngai Hoe Yean | [@ngai123](https://github.com/ngai123) |
+| Christian Lew | [@christian-lew](https://github.com/christian-lew) |
+| Muhammad Khalif Amin Bin Azam | [@skyp3crack](https://github.com/skyp3crack) |
+| Ng Yuit Xian | [@ng186](https://github.com/ng186) |
+| [Name] | [@bellanriz](https://github.com/bellanriz) |
 
 ---
 
@@ -536,9 +454,9 @@ Once the backend is running, visit:
 ### Open Source Projects
 - **React Team** - For the amazing React framework
 - **FastAPI** - For the modern Python web framework
-- **Anthropic** - For Claude AI capabilities
 - **Google** - For Gemini AI and Cloud Platform
 - **LangChain** - For AI orchestration tools
+- **Meta (Facebook)** - For FAISS vector search
 - **All contributors** to the libraries we use
 
 ### Special Thanks
@@ -555,9 +473,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact & Support
 
-- **Report Issues:** [GitHub Issues](https://github.com/your-repo/project-aura/issues)
-- **Email:** support@aura-dating-app.com
-- **Documentation:** [Full Documentation](https://docs.aura-dating-app.com)
+### For Portfolio & Documentation
+- **Report Issues:** [GitHub Issues](https://github.com/christianlew21/project-aura-portfolio/issues)
+- **Feedback:** Open an issue for suggestions or questions
+
+### For Source Code Access
+- **Email:** cheefeng21@gmail.com
+- **LinkedIn:** [Lew Chee Feng](https://www.linkedin.com/in/lew-chee-feng-a4398a233/)
+- **GitHub:** [Christian Lew](https://github.com/christianlew21)
+
+### Professional Inquiries
+For collaboration opportunities, employment discussions, or code review access, please reach out via email or LinkedIn.
 
 ---
 
