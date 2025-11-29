@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="icon-512.png" alt="Project Aura Logo" width="200"/>
+
 # 💖 Project Aura 💖
 
 *Your AI-Powered Dating Experience*
