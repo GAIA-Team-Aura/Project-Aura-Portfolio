@@ -6,10 +6,30 @@
 
 *Your AI-Powered Dating Experience*
 
+<!-- Achievement Badge -->
+![Award](https://img.shields.io/badge/🏆_2nd_Runner_Up-Gamuda_AI_Academy-FFD700?style=for-the-badge)
+
+<!-- Core Tech Stack -->
 ![React](https://img.shields.io/badge/React-19.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.119-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Latest-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+<!-- AI & Cloud -->
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-2.5-8E75B2?style=for-the-badge&logo=google&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-Platform-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-0.3-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
+
+<!-- Frontend -->
+![Vite](https://img.shields.io/badge/Vite-7.1-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Material UI](https://img.shields.io/badge/Material_UI-7.3-007FFF?style=for-the-badge&logo=mui&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-4.8-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+
+<!-- Deployment & Features -->
+![Firebase](https://img.shields.io/badge/Firebase-Hosting-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![PWA](https://img.shields.io/badge/PWA-Enabled-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 
 **A modern, full-stack dating application featuring AI-powered personality analysis, real-time messaging, and intelligent matching algorithms.**
@@ -447,7 +467,7 @@ Meet the talented individuals who brought Project Aura to life:
 | Christian Lew | [@christian-lew](https://github.com/christian-lew) |
 | Muhammad Khalif Amin Bin Azam | [@skyp3crack](https://github.com/skyp3crack) |
 | Ng Yuit Xian | [@ng186](https://github.com/ng186) |
-| [Name] | [@bellanriz](https://github.com/bellanriz) |
+| Nur Izzati Nabilah | [@bellanriz](https://github.com/bellanriz) |
 
 ---
 
